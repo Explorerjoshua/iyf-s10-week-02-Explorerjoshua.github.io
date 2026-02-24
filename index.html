@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joshua Wandera | Personal Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        h1, h2 {
+            color: #0366d6;
+        }
+
+        h1 {
+            border-bottom: 3px solid #0366d6;
+            padding-bottom: 10px;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .project-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            background-color: #0366d6;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #024e9c;
+        }
+
+        @media(max-width: 600px) {
+            .projects {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome! I'm Joshua Wandera</h1>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I'm a student learning web development and programming. I'm passionate about building websites, coding projects, and exploring new technologies. I also have a strong interest in music, particularly choral arrangements.</p>
+    </div>
+
+    <div class="section">
+        <h2>What I'm Learning</h2>
+        <ul>
+            <li>Git and GitHub</li>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Frontend frameworks (React)</li>
+            <li>Choral music arrangements (SATB & TTBB)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Personal Portfolio</h3>
+                <p>A responsive personal website showcasing my skills, projects, and contact information.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Choral Music App</h3>
+                <p>A web app for arranging African tunes into SATB and TTBB choral formats.</p>
+                <a href="#">View Project</a>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Contact Me</h2>
+        <form action="mailto:joshuawandera092@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://github.com/Explorerjoshua/iyf-s10-week-02-Explorerjoshua" target="_blank">My GitHub Profile</a></li>
+            <li><a href="mailto:joshuawandera092@gmail.com">Email Me</a></li>
+        </ul>
+    </div>
+</body>
+</html>
